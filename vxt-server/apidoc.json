@@ -1,0 +1,7 @@
+{
+    "name": "V学堂",
+    "title": "V学堂API接口文档",
+    "description":"V学堂API接口文档",
+    "url" : "http://localhost:5555",
+    "version": "0.0.0"
+}

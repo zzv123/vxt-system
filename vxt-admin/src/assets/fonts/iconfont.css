@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2973923 */
+  src: url('iconfont.woff2?t=1638432591687') format('woff2'),
+       url('iconfont.woff?t=1638432591687') format('woff'),
+       url('iconfont.ttf?t=1638432591687') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youshuangjiantou:before {
+  content: "\e638";
+}
+
+.icon-zuoshuangjiantou:before {
+  content: "\e63b";
+}
+
+.icon-user:before {
+  content: "\e72c";
+}
+
+.icon-lock:before {
+  content: "\e709";
+}
+
+.icon-setting:before {
+  content: "\e650";
+}
+
+.icon-article:before {
+  content: "\e643";
+}
+
+.icon-bingtu:before {
+  content: "\e902";
+}
+
+.icon-teacher:before {
+  content: "\e659";
+}
+
+.icon-fenlei:before {
+  content: "\e669";
+}
+
+.icon-jiaodiantu:before {
+  content: "\e632";
+}
+
+.icon-zhuzhuangtu:before {
+  content: "\e6f3";
+}
+
+.icon-overview:before {
+  content: "\e6e4";
+}
+
+.icon-course:before {
+  content: "\e606";
+}
+
+.icon-shujutongji:before {
+  content: "\e724";
+}
+
+.icon-zhexiantu:before {
+  content: "\ebbe";
+}
+

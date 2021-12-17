@@ -1,0 +1,114 @@
+{
+  "id": "2973923",
+  "name": "lxt-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6966954",
+      "name": "右双箭头",
+      "font_class": "youshuangjiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "6966963",
+      "name": "左双箭头",
+      "font_class": "zuoshuangjiantou",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "5428576",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "7008959",
+      "name": "lock_fill",
+      "font_class": "lock",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "695273",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "970762",
+      "name": "文章",
+      "font_class": "article",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "1727592",
+      "name": "407饼图",
+      "font_class": "bingtu",
+      "unicode": "e902",
+      "unicode_decimal": 59650
+    },
+    {
+      "icon_id": "2614674",
+      "name": "讲师",
+      "font_class": "teacher",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "2742626",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "4863108",
+      "name": "焦点图",
+      "font_class": "jiaodiantu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "5961131",
+      "name": "柱状图",
+      "font_class": "zhuzhuangtu",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "7297754",
+      "name": "概览",
+      "font_class": "overview",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "7384771",
+      "name": "课程管理",
+      "font_class": "course",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "8553737",
+      "name": "数据统计",
+      "font_class": "shujutongji",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    },
+    {
+      "icon_id": "19704318",
+      "name": "折线图",
+      "font_class": "zhexiantu",
+      "unicode": "ebbe",
+      "unicode_decimal": 60350
+    }
+  ]
+}

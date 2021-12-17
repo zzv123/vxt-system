@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9503974b-242d-4ba6-b642-60b88c9d4448" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LXT_System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/fonts/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/imgs/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/imgs/login_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/imgs/zzv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/axios/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/components/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/components/Mainer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/libs/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/article/Article.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/category/Category.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/course/Course.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/focusCourse/FocusCourse.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/overView/OverView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/setting/Setting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/statistics/CommentChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/statistics/CourseChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/statistics/UserChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/src/views/teacher/Teacher.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/yarn-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-admin/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/api_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/api_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/api_project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/api_project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/img/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/img/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/img/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/img/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/locales/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/utils/handlebars_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/utils/send_sample_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/utils/send_sample_request_utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/diff_match_patch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/list.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/lodash.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/semver.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/apidoc/vendor/webfontloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/config/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/error/2021-11-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/error/2021-12-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-11-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-11-27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-11-29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-11-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-12-01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-12-02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-12-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-12-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-12-06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/logs/info/2021-12-07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/middleware/middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/pages/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/pages/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/pages/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/banner/0e2b3e84df7891e2100f91244409054a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/banner/banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/banner/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/banner/banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/banner/banner-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/banner/e6ff102db1ec2a513715b4c3a319330d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/config/mini_pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/config/wechat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/config/weibo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/course/fm_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/course/fm_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/course/fm_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/course/fm_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/course/fm_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/status/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/status/500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/teacher/jh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/teacher/sz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/teacher/xl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/user/xl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/user/yg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/user/zsf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/images/user/zwj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/01.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/02.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/03.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/04.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/05.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/06.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/07.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/08.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/public/videos/09.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/client/articleRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/client/courseRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/client/homeRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/client/searchRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/client/teacherRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/client/userRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/adCourseRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/adminRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/articleRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/categoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/configRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/courseRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/overViewRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/statisticsRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/router/manager/teacherRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/utils/dateTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/utils/email.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/utils/mysql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxt-server/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vxt-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-client/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22OvpG8XnNksKstlp4e4cAI7fFF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.27" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9503974b-242d-4ba6-b642-60b88c9d4448" name="默认变更列表" comment="" />
+      <created>1639721631802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639721631802</updated>
+      <workItem from="1639721635562" duration="149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+{
+    "name": "vxt-admin",
+    "version": "0.0.0",
+    "description": "V学堂-管理后台",
+    "author": "Aries.",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "@element-plus/icons": "^0.0.11",
+        "@tinymce/tinymce-vue": "^4.0.5",
+        "axios": "^0.24.0",
+        "echarts": "^5.2.2",
+        "element-plus": "^1.2.0-beta.4",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "normalize.css": "^8.0.1",
+        "nprogress": "^0.2.0",
+        "tinymce": "^5.10.2",
+        "unplugin-vue-components": "^0.17.2",
+        "vue": "^3.2.16",
+        "vue-router": "^4.0.12",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^1.9.3",
+        "vite": "^2.6.4"
+    }
+}
