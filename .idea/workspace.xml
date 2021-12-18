@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9503974b-242d-4ba6-b642-60b88c9d4448" name="默认变更列表" comment="2021.12.17">
-      <change afterPath="$PROJECT_DIR$/vxt-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vxt-server/utils/jwt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitinore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitinore" afterDir="false" />
+    <list default="true" id="9503974b-242d-4ba6-b642-60b88c9d4448" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vxt-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vxt-system.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-admin/src/axios/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-admin/src/axios/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-admin/src/libs/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-admin/src/libs/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-admin/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-admin/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-admin/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-admin/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/middleware/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/middleware/middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/client/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/client/userRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/adCourseRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/adCourseRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/adminRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/adminRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/articleRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/articleRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/categoryRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/categoryRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/configRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/configRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/courseRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/courseRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/overViewRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/overViewRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/statisticsRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/statisticsRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vxt-server/router/manager/teacherRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-server/router/manager/teacherRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vxt-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vxt-admin/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +87,7 @@
       <workItem from="1639721635562" duration="149000" />
       <workItem from="1639721819010" duration="2448000" />
       <workItem from="1639726667357" duration="6680000" />
-      <workItem from="1639788122016" duration="2899000" />
+      <workItem from="1639788122016" duration="4028000" />
     </task>
     <task id="LOCAL-00001" summary="2021.12.17">
       <created>1639722371431</created>
@@ -115,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639722371431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2021.12.18">
+      <created>1639791286700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639791286700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2021.12.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.12.17" />
+    <MESSAGE value="2021.12.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.12.18" />
   </component>
 </project>
