@@ -80,6 +80,7 @@ export default {
                     if (response.data.successful) {
                         this.$message.success('登录成功')
                         window.sessionStorage.setItem("activeRouter", '/overview')
+                        window.localStorage.setItem("token", response.data.data.token)
                         this.$router.push('/home')
                     } else {
                         return this.$message.error('登陆失败')

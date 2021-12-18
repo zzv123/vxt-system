@@ -1,8 +1,20 @@
-let express = require('express');
-let fs = require("fs");
-let path = require("path");
-let router = express.Router();
-let multer = require("multer")
+const express = require('express');
+const fs = require("fs");
+const path = require("path");
+const multer = require("multer");
+const router = express.Router();
+const {verifyToken} = require("../../utils/jwt.js");
+
+// 对后面的接口进行鉴权
+router.use((req, res, next) => {
+    const {token} = req.headers
+    verifyToken(token)
+        .then(() => {
+            next()
+        }).catch((err) => {
+        res.send(err)
+    })
+})
 
 /**
  * @api {get} /api/manager/config/delete_file 后台删除文件

@@ -3,11 +3,11 @@ const express = require("express");
 // 引入path模块
 const path = require('path');
 // 引入配置文件
-const config = require('./config/config');
+const config = require('./config/config.js');
 // 引入自定义中间件
-const {rizhiMF, notFoundMF, handlerErrorMF, crossDomainM, toolM} = require("./middleware/middleware");
+const {rizhiMF, notFoundMF, handlerErrorMF, crossDomainM, toolM} = require("./middleware/middleware.js");
 // 引入时间处理工具函数
-const {getCurrentDate} = require("./utils/dateTime");
+const {getCurrentDate} = require('./utils/dateTime.js');
 // 引入前台路由
 const c_homeRouter = require("./router/client/homeRouter");
 const c_teacherRouter = require("./router/client/teacherRouter");

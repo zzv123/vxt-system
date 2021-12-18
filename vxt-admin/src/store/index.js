@@ -6,7 +6,9 @@ const store = createStore({
     // 非生产环境启用严格模式
     strict: process.env.NODE_ENV !== 'production',
     // 全局共享的状态存放
-    state: {},
+    state: {
+        token: ''
+    },
     // 相当于计算属性
     getters: {},
     // 同步提交状态

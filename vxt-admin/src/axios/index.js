@@ -10,6 +10,7 @@ export const baseURL = "http://localhost:5555"
 axios.defaults.baseURL = baseURL + "/api"//基础请求路径
 axios.defaults.timeout = 5000 //响应时间
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded' //默认请求头
+axios.defaults.headers.token = window.localStorage.getItem("token") //用户令牌
 
 // axios配置拦截
 // 请求拦截

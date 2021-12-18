@@ -1,5 +1,6 @@
-let express = require('express');
-let router = express.Router();
+const express = require('express');
+const router = express.Router();
+const {generateToken, verifyToken} = require("../../utils/jwt.js");
 
 /**
  * @api {post} /api/manager/admin/admin_login 后台管理员登录
@@ -28,10 +29,27 @@ router.post("/admin_login", (req, res) => {
     let sql = "SELECT id, account, nick_name FROM t_admin WHERE account=? AND password=?"
     res.utils.execSQL(sql, [account, password]).then((result) => {
         if (result.length > 0) {
+            let token = generateToken({
+                login: true,
+                name: account,
+                time: Date.now()
+            })
+            result[0].token = token
             res.send(res.utils.ResponseTemp(200, true, "登录成功", result[0]));
         } else {
             res.send(res.utils.ResponseTemp(400, false, "登录失败", {}));
         }
+    })
+})
+
+// 对后面的接口进行鉴权
+router.use((req, res, next) => {
+    const {token} = req.headers
+    verifyToken(token)
+        .then(() => {
+            next()
+        }).catch((err) => {
+        res.send(err)
     })
 })
 

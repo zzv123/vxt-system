@@ -1,5 +1,17 @@
-let express = require('express');
-let router = express.Router();
+const express = require('express');
+const router = express.Router();
+const {verifyToken} = require("../../utils/jwt.js");
+
+// 对后面的接口进行鉴权
+router.use((req, res, next) => {
+    const {token} = req.headers
+    verifyToken(token)
+        .then(() => {
+            next()
+        }).catch((err) => {
+        res.send(err)
+    })
+})
 
 /**
  * @api {get} /api/manager/statistics/category_course_count 后台获取分类课程统计

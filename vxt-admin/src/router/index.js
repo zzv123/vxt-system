@@ -49,5 +49,21 @@ const router = createRouter({
     linkActiveClass: 'current'
 })
 
+// 全局路由的前置守卫
+router.beforeEach((to, from, next) => {
+    // 如果访问登陆页，则放行
+    if (to.path === '/login') {
+        return next()
+    }
+    // 如果用户未登陆，则跳转到/login
+    const token = window.localStorage.getItem("token")
+    if (!token) {
+        alert('禁止访问，请先登录！')
+        return next('/login')
+    }
+    // 如果用户已登录，则放行
+    next()
+})
+
 // 3.导出路由对象
 export default router

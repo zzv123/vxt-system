@@ -2,6 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const path = require("path");
 const fs = require("fs");
+const {generateToken, verifyToken} = require("../../utils/jwt.js");
 let router = express.Router();
 
 /**
@@ -92,6 +93,12 @@ router.post("/user_login", (req, res) => {
             password = ?
     `, [account, password], "登录成功", result => {
         if (result.length > 0) {
+            let token = generateToken({
+                login: true,
+                name: account,
+                time: Date.now()
+            })
+            result[0].token = token
             return result[0]
         } else {
             res.send(res.utils.ResponseTemp(400, false, "用户名或密码错误", {}));
@@ -99,12 +106,16 @@ router.post("/user_login", (req, res) => {
     })
 })
 
-// 后面的几个接口，没有进行任何的鉴权判断
-// router.use((req, res, next) => {
-//     // 判断用户是否登录
-//     // 登录：next()
-//     // 没有登录：拦截->响应提示给客户端
-// })
+// 对后面的接口进行鉴权
+ router.use((req, res, next) => {
+     const {token} = req.headers
+     verifyToken(token)
+         .then(() => {
+             next()
+         }).catch((err) => {
+         res.send(err)
+     })
+ })
 
 
 /**

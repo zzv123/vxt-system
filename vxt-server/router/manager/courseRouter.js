@@ -1,8 +1,20 @@
-let express = require('express');
-let fs = require("fs");
-let path = require("path");
-let multer = require("multer");
-let router = express.Router();
+const express = require('express');
+const fs = require("fs");
+const path = require("path");
+const multer = require("multer");
+const router = express.Router();
+const {verifyToken} = require("../../utils/jwt.js");
+
+// 对后面的接口进行鉴权
+router.use((req, res, next) => {
+    const {token} = req.headers
+    verifyToken(token)
+        .then(() => {
+            next()
+        }).catch((err) => {
+        res.send(err)
+    })
+})
 
 /**
  * @api {post} /api/manager/course/upload_fm 后台课程封面上传
