@@ -40,9 +40,9 @@ let rizhiMF = function (rizhiFilePath) {
             params = req.body;
         }
         let ua = req.headers["user-agent"];
-
+        console.log(ua)
         execSQL("insert into log (method, path, params, user_agent) values (?, ?, ?, ?);", [method, path, JSON.stringify(params), ua]).then(result => {
-            console.log("记录日志成功!")
+            // console.log("记录日志成功!")
         })
         let result = `
 =============================================
@@ -54,7 +54,7 @@ let rizhiMF = function (rizhiFilePath) {
 =============================================
                      `
         fs.appendFile(rizhiFilePath, result, () => {
-            console.log("写入日志成功")
+            // console.log("写入日志成功")
         })
         // 继续传递请求 响应 next
         next()

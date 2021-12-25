@@ -124,7 +124,7 @@ router.get("/hot_course",(req,res)=> {
 })
 
 /**
- * @api {get} /api/client/home/hot_course 前台获取明星讲师
+ * @api {get} /api/client/home/star_teacher 前台获取明星讲师
  * @apiName 前台获取明星讲师
  * @apiGroup Home
  *

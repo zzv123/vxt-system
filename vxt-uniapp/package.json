@@ -1,0 +1,16 @@
+{
+  "name": "mashangxingzheng",
+  "version": "1.0.0",
+  "description": "码上行政小程序",
+  "main": "main.js",
+  "dependencies": {
+    "uview-ui": "^1.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["码上行政","码上吃饭","码上拜访"],
+  "author": "张增威",
+  "license": "ISC"
+}

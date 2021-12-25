@@ -79,14 +79,15 @@ export default {
                     console.log(response.data)
                     if (response.data.successful) {
                         this.$message.success('登录成功')
-                        window.sessionStorage.setItem("activeRouter", '/overview')
                         window.localStorage.setItem("token", response.data.data.token)
+                        window.sessionStorage.setItem("activeRouter", '/overview')
                         this.$router.push('/home')
                     } else {
                         return this.$message.error('登陆失败')
                     }
                 }).catch(error => {
                     console.log(error)
+                    this.$message.error('网络请求出现错误')
                 })
             })
         }

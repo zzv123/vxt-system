@@ -4,17 +4,19 @@ import 'nprogress/nprogress.css'
 // 导入axios
 import axios from 'axios'
 
-export const baseURL = "http://localhost:5555"
+export const baseURL = "http://localhost:5050"
 
 // axios全局配置
 axios.defaults.baseURL = baseURL + "/api"//基础请求路径
 axios.defaults.timeout = 5000 //响应时间
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded' //默认请求头
-axios.defaults.headers.token = window.localStorage.getItem("token") //用户令牌
 
 // axios配置拦截
 // 请求拦截
 axios.interceptors.request.use((request) => {
+    console.log(request)
+    // 请求时携带用户令牌
+    request.headers.token = window.localStorage.getItem("token")
     // 请求时开启进度条
     NProgress.start()
     return request

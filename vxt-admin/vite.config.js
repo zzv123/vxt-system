@@ -6,7 +6,7 @@ export default defineConfig({
         vue()
     ],
     server: {
-        port: 3005,
+        port: 4040,
         open: true,
         hmr: {
             overlay: false

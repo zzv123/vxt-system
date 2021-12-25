@@ -36,15 +36,24 @@ github地址: https://github.com/zzv123/vxt-system
 8. nprogress
 9. lodash
 10. tinymce
-11. moment
+11. moment.js
 12. normalize.css
 13. iconfont
 
-### 网站前台
-1. coding...
+### 网站前台（开发中）
+1. nuxt.js
+2. vue
+3. axios
+4. ant-design-vue
+5. webpack
 
 ### 移动端
-1. coding...
+1. uni-app
+2. uview-ui
+3. moment.js
+4. normalize.css   
+5. iconfont
+6. scss
 
 ## 项目截图
 

@@ -1,0 +1,131 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/courselist/courselist",
+			"style": {
+				"navigationBarTitleText": "课程列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/articlelist/articlelist",
+			"style": {
+				"navigationBarTitleText": "文章列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/articledetail/articledetail",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/coursedetail/coursedetail",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/teacherlist/teacherlist",
+			"style": {
+				"navigationBarTitleText": "讲师列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/teacherdetail/teacherdetail",
+			"style": {
+				"navigationBarTitleText": "讲师详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/courseplayer/courseplayer",
+			"style": {
+				"navigationBarTitleText": "课程播放",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "账号设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "学习记录",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "码上吃饭",
+		"navigationBarBackgroundColor": "#0084ff",
+		"backgroundColor": "#0084ff"
+	},
+	"tabBar": {
+		"color": "#BFBFBF",
+		"selectedColor": "#404B5D",
+		"backgroundColor": "#F3F4F6",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/tabbar/index.png",
+				"selectedIconPath": "./static/tabbar/index_s.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine_s.png"
+			}
+		]
+	}
+}

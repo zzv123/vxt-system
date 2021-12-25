@@ -1,0 +1,4 @@
+# 忽略文件
+/.hbuilderx/
+/unpackage/
+.DS_Store

@@ -107,15 +107,15 @@ router.post("/user_login", (req, res) => {
 })
 
 // 对后面的接口进行鉴权
- router.use((req, res, next) => {
-     const {token} = req.headers
-     verifyToken(token)
-         .then(() => {
-             next()
-         }).catch((err) => {
-         res.send(err)
-     })
- })
+router.use((req, res, next) => {
+    const {token} = req.headers
+    verifyToken(token)
+        .then(() => {
+            next()
+        }).catch((err) => {
+        res.send(err)
+    })
+})
 
 
 /**
@@ -262,10 +262,11 @@ router.post("/update_header", uploader.single("header"), (req, res) => {
         if (result.length > 0) {
             let userObj = result[0];
             let userHeaderPath = userObj.header;
+            console.log(userHeaderPath)
             // 不是默认头像
             if (userHeaderPath.toLowerCase() !== "/images/user/xl.jpg") {
                 // 删除对应的图片资源
-                fs.unlinkSync(path.resolve(__dirname, "../public" + userHeaderPath));
+                fs.unlinkSync(path.resolve(__dirname, "../../public" + userHeaderPath));
             }
             // 1.把新图片的路径，存储到数据库表当中（更新）
             let newPath = `/images/user/${file.filename + extName}`;
